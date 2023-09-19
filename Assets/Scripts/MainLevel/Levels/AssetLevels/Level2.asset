@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38324cb2d5f39784d9af70fe72a9a86e, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  _bigCrystal: {fileID: 2665583676163432040, guid: 74ddf4a1497deb44c816bf995023c9c0, type: 3}
+  _smallCrystal: {fileID: 4942058661025074435, guid: 8216adc04992baf4391dd644c0442aa0, type: 3}
+  _endCrystalPosition: {x: 7.75, y: -7, z: 18}
+  _startCrystalPosition: {x: 7.75, y: 0, z: 18}
+  _keyRequirements: 0
+  _numberScene: 1
+  _isUnlock: 1
