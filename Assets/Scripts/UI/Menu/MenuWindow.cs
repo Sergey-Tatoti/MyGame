@@ -11,13 +11,15 @@ public class MenuWindow : MonoBehaviour
     [SerializeField] private GameObject _closeImage;
     [SerializeField] private GameObject _openImage;
 
+    private float _volumeSounds = 0.2f;
+
     public void OpenMenu()
     {
         if (_pauseMenu.gameObject.activeSelf == true)
         {
             ShowMenu(1, false, true);
             TryCloseShop();
-            SwitchSounds(0.1f);
+            SwitchSounds(_volumeSounds);
         }
         else
         {

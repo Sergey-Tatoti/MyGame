@@ -40,10 +40,12 @@ public class PlayerLook : MonoBehaviour
 
     public void ShowRebirth(Vector3 savePoint)
     {
+      int timeHidingEffect = 1;
+      
       _effectRebirth.transform.position = savePoint;
       _effectRebirth.gameObject.SetActive(true);
 
-      Invoke("HideEffect", 1f);
+      Invoke("HideEffect", timeHidingEffect);
     }
 
     private void HideEffect()

@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
     public void BuySkin(Skin _skin)
     {
         _countCrystals -= _skin.Price;
-        PlayerPrefs.SetInt("Crystals", _countCrystals);
+        PlayerPrefs.SetInt(CrystalSave, _countCrystals);
         CrystalsChanged?.Invoke(_countCrystals);
     }
 

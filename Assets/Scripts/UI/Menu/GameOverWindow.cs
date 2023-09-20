@@ -9,6 +9,8 @@ public class GameOverWindow : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private GameOverMenu _gameOverMenu;
 
+    private float _volumeSounds = 0.2f;
+
     private void OnEnable()
     {
         _player.HealthChanged += OnHealthChanged;
@@ -24,7 +26,7 @@ public class GameOverWindow : MonoBehaviour
         if (heart > 0)
         {
             OpenGameOverMenu(1, false);
-            SwitchSounds(0.2f);
+            SwitchSounds(_volumeSounds);
         }
         else
         {
