@@ -8,7 +8,7 @@ public class DeadlyHeight : MonoBehaviour
     [SerializeField] private Player _player;
     [SerializeField] private float PermittedHeight;
 
-    private void Awake()
+    private void Start()
     {
         Vector3 playerPosition = _player.transform.position;
 

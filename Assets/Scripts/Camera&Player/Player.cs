@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     private const string CrystalSave = "Crystals";
-    
+
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private PlayerJumping _playerJumping;
     [SerializeField] private PlayerLook _playerLook;

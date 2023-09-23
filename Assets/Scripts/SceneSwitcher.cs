@@ -7,7 +7,7 @@ public class SceneSwitcher : MonoBehaviour
 {
     [SerializeField] private int _numberLevel;
 
-    public void SwitchScene()
+    private void OnTriggerEnter(Collider other) 
     {
         SceneManager.LoadScene(_numberLevel);
     }

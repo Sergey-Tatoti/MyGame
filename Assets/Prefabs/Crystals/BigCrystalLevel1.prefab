@@ -592,7 +592,6 @@ GameObject:
   - component: {fileID: 652104728}
   - component: {fileID: 2665583676163432040}
   - component: {fileID: 1699576379560178412}
-  - component: {fileID: 5011349691745985448}
   m_Layer: 8
   m_Name: BigCrystalLevel1
   m_TagString: Untagged
@@ -675,20 +674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 2
---- !u!114 &5011349691745985448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864742499577446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee5cdd923f4ebc74d8b87f7242e94aee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _savedData: {fileID: 0}
-  _SceneSwitcher: {fileID: 652104728}
 --- !u!1 &1945579784357284
 GameObject:
   m_ObjectHideFlags: 0

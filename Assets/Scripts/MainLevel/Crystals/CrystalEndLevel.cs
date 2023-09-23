@@ -6,13 +6,13 @@ using UnityEngine;
 public class CrystalEndLevel : MonoBehaviour
 {
     [SerializeField] private SavedData _savedData;
-    [SerializeField] private SceneSwitcher _SceneSwitcher;
+    [SerializeField] private EndMenuWindow _EndMenuWindow;
 
     private void OnTriggerEnter(Collider other)
     {
         if (_savedData != null)
             _savedData.SaveValues();
 
-        _SceneSwitcher.SwitchScene();
+        _EndMenuWindow.ShowMenu();
     }
 }
